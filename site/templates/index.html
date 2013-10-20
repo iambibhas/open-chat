@@ -1,0 +1,36 @@
+{% extends './base.html' %}
+
+{% block sidebar %}
+<header class="header">
+    <hgroup>
+        <h1 class="brand-title">A Sample Blog</h1>
+    </hgroup>
+    <video id="you" class="flip" autoplay width="263" height="200"></video>
+    <nav class="nav buttonBox">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="pure-button" id="fullscreen" href="#">Fullscreen</a>
+            </li>
+            <li class="nav-item">
+                <a class="pure-button" id="newRoom" href="#">New Room</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="nav" id="chatbox">
+        <div id="messages">
+        </div>
+        <form class="pure-form" onsubmit="return false">
+            <input id="chatinput" type="text" placeholder="Message:"/>
+        </form>
+    </div>
+</header>
+{% endblock %}
+
+{% block body %}
+<div class="posts" id="videos">
+    <h1 class="content-subhead">Other Users</h1>
+</div>
+{% endblock %}
+
+{% block end-body %}
+{% endblock %}
