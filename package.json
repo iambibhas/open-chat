@@ -11,11 +11,11 @@
     "express": "3.1.0",
     "ws": "latest",
     "swig": "latest",
-    "supervisor": "latest",
+    "supervisor": "latest"
   },
   "subdomain": "OpenChat",
   "scripts": {
     "start": "site/server.js"
   },
-  "author": "Bibhas D",
+  "author": "Bibhas D"
 }
