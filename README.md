@@ -6,6 +6,7 @@ Requirements
 ---
  - This software requires Node.js and [`npm`](https://github.com/isaacs/npm) to be installed in your system.
  - You need Internet connection to set it up, once it's setup, you wont need it anymore.
+ - You need latest web browsers for this to work.
 
 Installation
 ---
