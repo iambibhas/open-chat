@@ -16,7 +16,7 @@ app.get('/', function(req, res) {
         foo: "fodo",
         bar: "bar"
     };
-    renderTemplate(res, "./templates/test.html", context);
+    renderTemplate(res, "./templates/index.html", context);
 });
 
 webRTC.rtc.on('chat_msg', function(data, socket) {
