@@ -11,7 +11,8 @@
     "express": "3.1.0",
     "ws": "latest",
     "swig": "latest",
-    "supervisor": "latest"
+    "supervisor": "latest",
+    "open": "latest"
   },
   "subdomain": "OpenChat",
   "scripts": {

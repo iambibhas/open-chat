@@ -1,3 +1,4 @@
+var openBrowser = require('open');
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
@@ -9,6 +10,8 @@ var renderTemplate = function(res, templateLocation, context) {
 
 var port = process.env.PORT || 8080;
 server.listen(port, '0.0.0.0');
+console.log('Server starter at http://0.0.0.0:' + port);
+openBrowser('http://0.0.0.0:' + port);
 
 app.use("/static", express.static(__dirname + '/static'));
 app.get('/', function(req, res) {
