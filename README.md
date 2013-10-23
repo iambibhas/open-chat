@@ -23,4 +23,4 @@ Now open you browser and head for [http://localhost:8080/](http://localhost:8080
 
 Now you should be able to chat with video with the other person.
 
-To stop the server, just go back to terminal and press `Ctrl+C`.
+To stop the server, just go back to terminal and press `Ctrl + c`.
